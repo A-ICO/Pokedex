@@ -1,0 +1,53 @@
+/* /* @charset "UTF-8";
+
+/*
+* Nom du projet : Picture box pokemon
+* Auteur : Angelo
+* Date : 27/09/2024
+*Description : Feuille de style pour l'exercice Picture box pokemon
+*/
+/* body {
+    box-sizing: border-box;
+    background-color: rgb(231, 224, 224);
+    margin: 0;
+    padding: 0;
+    /* border: 3px red solid; */
+
+
+@font-face {
+    font-family: pokemon;
+    src: url(../fonts/Pokemon_Solid.ttf);
+}
+
+header h2 {
+    font-family: pokemon;
+    color: red;
+    text-shadow: #000000 2px 2px, #000000 -2px -2px, #000000 2px -2px, #000000 -2px 2px;
+    font-size: 60px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border: black 2px solid;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+.scroll-container {
+    height: 650px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+@media (max-width: 1024px){
+    .scroll-container {
+        height: 200px;
+        /* width:500px; */
+        overflow-y: auto;
+        overflow-x: hidden;
+        
+    }
+}
+a{background-color:  rgb(55, 108, 255) !important;}
